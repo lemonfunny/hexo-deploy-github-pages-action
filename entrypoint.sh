@@ -47,8 +47,6 @@ cd "${GITHUB_WORKSPACE}"
 
 echo ">>> Install NPM dependencies ..."
 npm install
-#new add
-npm audit fix --force
 #npm install hexo-theme-aurora --save
 
 echo ">>> Clean folder ..."
