@@ -40,7 +40,7 @@ apt-get install -y git && \
 
 echo ">>> Install Themes with Dependencies ..."
 cd "${GITHUB_WORKSPACE}"/themes
-git clone -b master ${THEME_REPOSITORY} ${THEME_DIRNAME}
+git clone -b main ${THEME_REPOSITORY} ${THEME_DIRNAME}
 
 # Directs the action to the the Github workspace.
 cd "${GITHUB_WORKSPACE}"
